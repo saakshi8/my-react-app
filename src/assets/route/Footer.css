@@ -1,0 +1,40 @@
+.footer {
+    background-color: green;
+    width: 100%;
+    color: white;
+    height: 10ex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left {
+    position: absolute;
+    left: 0.5cm;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0.5cm;
+
+    display: flex;
+    gap: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer a:hover {
+    color: lightblue;
+}
