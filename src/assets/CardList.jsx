@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { StaffContext } from "./context/StaffContext";
 import Card from "./Card";
-import "./Card.css";
+import "./card.css";
 
 function CardList() {
     const { staff } = useContext(StaffContext);
